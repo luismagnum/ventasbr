@@ -6,7 +6,7 @@ import transferLogo from '../assets/transfer.png';
 
 const MetodosPago = () => {
   return (
-    <div className="max-w-md mx-auto mt-8 p-4 bg-white shadow-md rounded-lg">
+    <div className="max-w-md mx-auto mt-8 p-4 shadow-md rounded-lg">
       <h2 className="text-gray-800 text-xl font-bold text-center mb-4">Métodos de Pago</h2>
       <h3 className='text-gray-800 text-xl font-bold text-center mb-2'>Te enviamos Link o Alias</h3>
       <div className="flex flex-wrap justify-center gap-4">
