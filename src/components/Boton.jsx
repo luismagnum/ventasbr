@@ -6,7 +6,7 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 const WhatsAppButton = () => {
   return (
     <a
-      href="https://wa.me/1234567890" // Reemplaza con tu número de WhatsApp
+      href="https://wa.me/543412143000?text=Hola quiero hacer una consulta" 
       className="fixed bottom-4 right-4 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition duration-300 z-50"
       target="_blank"
       rel="noopener noreferrer"

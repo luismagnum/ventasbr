@@ -15,7 +15,7 @@ const Hero = () => {
                 <div className='bg-[#fc5c04] hover:bg-blue-500 text-[#171a67] px-6 py-4
                 rounded-lg mt-4 w-fit mx-auto md:mx-0 font-bold hover:shadow-lg duration-200'>
                 <button>
-                <a href="https://wa.me/542984417477?text=Hola quiero hacer una consulta" target="_blank" className="flex items-center justify-center space-x-2">
+                <a href="https://wa.me/543412143000?text=Hola quiero hacer una consulta" target="_blank" className="flex items-center justify-center space-x-2">
                   Consultar
                 </a>
                 </button>

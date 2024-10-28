@@ -71,7 +71,7 @@ const Productos = () => {
     const total = calculateTotal();
     const whatsappMessage = `Pedido:\n${orderText}\nTotal: $${total}`;
 
-    const url = `https://wa.me/542984417477?text=${encodeURIComponent(whatsappMessage)}`;
+    const url = `https://wa.me/543412143000?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(url, '_blank');
   };
 
