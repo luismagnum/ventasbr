@@ -30,9 +30,9 @@ const Footer = () => {
       </div>
       <div className='flex justify-center items-center py-6'>
       <button className='flex gap-4 justify-center md:mx-32'>
-            <a className="text-[#171a67] text-4xl hover:text-gray-500" href="https://wa.me/542984792639?text=Hola quiero hacer un pedido " target="_blank"><FaWhatsappSquare /></a>
-            <a className="text-[#171a67] text-4xl hover:text-gray-500" href="https://www.facebook.com/profile.php?id=100063541335021" target="_blank"><FaFacebookSquare /></a>
-            <a className="text-[#171a67] text-4xl hover:text-gray-500" href="https://www.instagram.com/saboresdevenezuela2020?igshid=NjlwNzlyMDk2Mg==" target="_blank"><FaInstagramSquare /></a>
+            <a className="text-[#171a67] text-4xl hover:text-gray-500" href="./"><FaWhatsappSquare /></a>
+            <a className="text-[#171a67] text-4xl hover:text-gray-500" href="./"><FaFacebookSquare /></a>
+            <a className="text-[#171a67] text-4xl hover:text-gray-500" href="./"><FaInstagramSquare /></a>
           </button>
       </div>
       <div className='text-center items-center'>
