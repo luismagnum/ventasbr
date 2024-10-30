@@ -2,18 +2,24 @@ import React, { useState } from 'react';
 import logo from '../assets/logo.png';
 import card from '../assets/mate.png'
 import car from '../assets/car.png';
+import imag1 from '../assets/imag1.png'
+import imag2 from '../assets/imag2.png'
+import imag3 from '../assets/imag3.png'
+import imag4 from '../assets/imag4.png'
+import imag5 from '../assets/imag5.png'
+import imag6 from '../assets/imag6.png'
 
 const Productos = () => {
   const [cart, setCart] = useState([]);
   const [showError, setShowError] = useState(false); 
 
   const productos = [
-    { id: 1, name: 'Mate', price: 14000, image: card},
-    { id: 2, name: 'Vasos', price: 7000, image:card },
-    { id: 3, name: 'Bolígrafos', price: 10000, image: card},
-    { id: 4, name: 'Bolsos', price: 5000, image: card },
-    { id: 5, name: 'Pulseras', price: 13000, image:card},
-    { id: 6, name: 'Reloj', price: 10000, image: card},
+    { id: 1, name: 'Thermos', price: 14000, image: imag1},
+    { id: 2, name: 'Thermos', price: 7000, image: imag2 },
+    { id: 3, name: 'Vasos', price: 10000, image: imag3},
+    { id: 4, name: 'Thermos', price: 5000, image: imag4 },
+    { id: 5, name: 'Thermos', price: 13000, image:imag5},
+    { id: 6, name: 'Toallon', price: 10000, image: imag6},
   ];
 
   
@@ -84,7 +90,7 @@ const Productos = () => {
         <h1 className="text-[#171a67] text-xl md:text-3xl font-bold mb-4 text-center m-4">TuRegalo</h1>
       </div>
 
-      <h2 className="text-gray-700 text-xl font-bold mb-6 text-center mt-2">Comprar</h2>
+      <h2 className="text-gray-700 text-xl font-bold mb-6 text-center mt-2">Selecciona TuRegalo</h2>
 
       <div className="grid grid-cols-2 p-2 md:grid-cols-3 gap-4 mb-6">
         {productos.map((producto) => (
