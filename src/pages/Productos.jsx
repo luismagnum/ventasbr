@@ -103,7 +103,7 @@ const Productos = () => {
               onClick={() => addToCart(producto)}
             >
               Agregar al
-              <img src={car} alt='car' className='w-4 h-4 ml-1 mt-1'/>
+              <img src={car} alt='car' className='w-4 h-4 ml-1'/>
             </button>
           </div>
         ))}
