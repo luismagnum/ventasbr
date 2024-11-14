@@ -22,7 +22,7 @@ const Navbar = () => {
                 <span>
                 <img src={logo} className='w-[30px] font-bold'/>
                 </span>
-                <h1 className='text-[#fc5c04] sm:text-xl md:text-2xl font-semibold ml-3'>TuRegalo</h1>
+                <h1 className='text-[#fc5c04] sm:text-xl md:text-2xl font-semibold ml-3'>Adventures</h1>
             </div>
             <nav className='hidden md:flex flex-row items-center text-lg font-medium gap-8'>
                 <Link

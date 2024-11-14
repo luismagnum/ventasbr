@@ -87,22 +87,23 @@ const Productos = () => {
         <span>
           <img src={logo} alt='' width={30}/>
         </span>
-        <h1 className="text-[#171a67] text-xl md:text-3xl font-bold mb-4 text-center m-4">TuRegalo</h1>
+        <h1 className="text-[#171a67] text-xl md:text-3xl font-bold mb-4 text-center m-4">Adventures</h1>
       </div>
 
-      <h2 className="text-gray-700 text-xl font-bold mb-6 text-center mt-2">Selecciona TuRegalo</h2>
+      <h2 className="text-gray-700 text-xl font-bold mb-6 text-center mt-2">Selecciona tu articulo</h2>
 
       <div className="grid grid-cols-2 p-2 md:grid-cols-3 gap-4 mb-6">
         {productos.map((producto) => (
-          <div key={producto.id} className="border border-gray-300 rounded-lg text-center p-4 flex flex-col items-center">
-            <img src={producto.image} alt={producto.name} className="w-16 h-16 mb-2" />
+          <div key={producto.id} className="border border-gray-600 rounded-lg text-center p-4 flex flex-col items-center">
+            <img src={producto.image} alt={producto.name} className="w-28 h-28 mb-2" />
             <h2 className="text-gray-700 text-xl font-bold mt-2">{producto.name}</h2>
             <p className="text-gray-800 font-semibold">${producto.price}</p>
             <button
-             className="text-xs md:text-base mt-2 md:px-4 py-2 bg-[#fc5c04] text-[#171a67] font-bold rounded-lg hover:bg-blue-500 whitespace-nowrap "
+             className="flex text-xs md:text-base mt-2 md:px-4 py-2  text-[#171a67] font-bold rounded-lg hover:bg-[#171a67] hover:text-white whitespace-nowrap "
               onClick={() => addToCart(producto)}
             >
-              Añadir al carrito
+              Agregar al
+              <img src={car} alt='car' className='w-4 h-4 ml-1 mt-1'/>
             </button>
           </div>
         ))}

@@ -12,7 +12,7 @@ const Footer = () => {
                 <span>
                     <img src={logo} alt='' width={40}/>
                 </span>
-      <h1 className="text-[#171a67] text-xl md:text-3xl font-bold mb-4 text-center m-4">TuRegalo</h1>
+      <h1 className="text-[#171a67] text-xl md:text-3xl font-bold mb-4 text-center m-4">Adventures</h1>
       </div>
       <div className='md:flex md:justify-between md:items-center sm:px-12 px-4 py-4 '>
         <h1 className='ml-4 md:ml-20 lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold md:w-2/5'>
@@ -37,7 +37,7 @@ const Footer = () => {
       </div>
       <div className='text-center items-center'>
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-center items-center justify-center pt-2 text-gray-950 text-sm pb-8'>
-        <span>@TuRegalo 2024<br></br>
+        <span>@Adventures 2024<br></br>
         <span className='text-gray-950'>@</span>SpeedWeb</span>
         <div className='flex items-center justify-center mx-auto'>
             <button className='grid grid-cols-1 mb-10'>
