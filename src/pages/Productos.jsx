@@ -99,7 +99,7 @@ const Productos = () => {
             <h2 className="text-gray-700 text-xl font-bold mt-2">{producto.name}</h2>
             <p className="text-gray-800 font-semibold">${producto.price}</p>
             <button
-             className="flex text-xs md:text-base mt-2 md:px-4 py-2  text-[#171a67] font-bold rounded-lg hover:bg-[#171a67] hover:text-white whitespace-nowrap "
+             className="flex text-xs border border-gray-700 md:text-base mt-2 md:px-4 py-2  text-[#171a67] font-bold rounded-lg hover:bg-[#171a67] hover:text-white whitespace-nowrap "
               onClick={() => addToCart(producto)}
             >
               Agregar al
