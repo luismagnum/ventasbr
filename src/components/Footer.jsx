@@ -20,10 +20,10 @@ const Footer = () => {
         hacer una consulta<span className='text-gray-900'>...</span>
         </h1>
         <div className='flex items-center justify-center mx-2'>
-        <button className="inline-block font-semibold tracking-wide border-none justify-center text-center bg-[#fc5c04] hover:bg-teal-500 duration-300 px-3 py-2 font-[Poppins] rounded-lg md:mr-20 md:rounded-md  md: text-white w-full md:w-auto">
+        <button className="inline-block font-semibold tracking-wide border-none justify-center text-center bg-[#171a67] hover:bg-teal-500 duration-300 px-3 py-2 font-[Poppins] rounded-lg md:mr-20 md:rounded-md  md: text-white w-full md:w-auto">
         <a href="https://wa.me/543412143000?text=Hola quiero hacer una consulta"  target="_blank" className="flex items-center justify-center space-x-2">
         <img src={whatsap} alt="what" width="25px" height="25px" className='flex-shrink-0'/>
-        <span className='text-[#171a67] font-bold sm:text-sm md:text-xl'>Click aqui</span>
+        <span className='text-white font-bold sm:text-sm md:text-xl'>Click aqui</span>
         </a>
         </button>
         </div>
@@ -41,7 +41,7 @@ const Footer = () => {
         <span className='text-gray-950'>@</span>SpeedWeb</span>
         <div className='flex items-center justify-center mx-auto'>
             <button className='grid grid-cols-1 mb-10'>
-              <a className='flex text-center text-[#171a67] font-semibold text-2xl hover:text-gray-500 ' href='./'>HOME</a>
+              <a className='flex text-center text-black font-semibold text-2xl hover:text-gray-500 ' href='./'>HOME</a>
             </button>
         </div>
       </div>

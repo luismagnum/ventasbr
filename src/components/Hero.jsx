@@ -12,7 +12,7 @@ const Hero = () => {
                   especial y lo mejor, a los mejores precios. A un click sin salir
                   de casa.
                 </p>
-                <div className='bg-[#fc5c04] text-[#171a67] hover:bg-[#171a67] hover:text-white px-6 py-4
+                <div className='bg-[#171a67] text-white hover:bg-[#171a67] hover:text-white px-6 py-4
                 rounded-lg mt-4 w-fit mx-auto md:mx-0 font-bold hover:shadow-lg duration-200'>
                 <button>
                 <a href="https://wa.me/543412143000?text=Hola quiero hacer una consulta" target="_blank" className="flex items-center justify-center space-x-2">
