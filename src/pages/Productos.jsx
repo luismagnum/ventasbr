@@ -2,24 +2,24 @@ import React, { useState } from 'react';
 import logo from '../assets/logo.png';
 import card from '../assets/mate.png'
 import car from '../assets/car.png';
-import imag1 from '../assets/imag1.png'
-import imag2 from '../assets/imag2.png'
-import imag3 from '../assets/imag3.png'
+import imag1 from '../assets/imag1.jpg'
+import imag2 from '../assets/imag2.jpg'
+import imag3 from '../assets/imag3.jpg'
 import imag4 from '../assets/imag4.jpg'
-import imag5 from '../assets/imag5.png'
-import imag6 from '../assets/imag6.png'
+import imag5 from '../assets/imag5.jpg'
+import imag6 from '../assets/imag6.jpg'
 
 const Productos = () => {
   const [cart, setCart] = useState([]);
   const [showError, setShowError] = useState(false); 
 
   const productos = [
-    { id: 1, name: 'Thermos', price: 14000, image: imag1},
-    { id: 2, name: 'Thermos', price: 7000, image: imag2 },
-    { id: 3, name: 'Vasos', price: 10000, image: imag3},
-    { id: 4, name: 'Reloj', price: 45000, image: imag4 },
-    { id: 5, name: 'Thermos', price: 13000, image:imag5},
-    { id: 6, name: 'Toallon', price: 10000, image: imag6},
+    { id: 1, name: 'Reloj', price: 14000, image: imag1},
+    { id: 2, name: 'Reloj', price: 7000, image: imag2 },
+    { id: 3, name: 'Reloj', price: 10000, image: imag3},
+    { id: 4, name: 'Perfume', price: 45000, image: imag4 },
+    { id: 5, name: 'Perfume', price: 13000, image:imag5},
+    { id: 6, name: 'Perfume', price: 10000, image: imag6},
   ];
 
   
@@ -87,10 +87,10 @@ const Productos = () => {
         <span>
           <img src={logo} alt='' width={30}/>
         </span>
-        <h1 className="text-[#171a67] text-xl md:text-3xl font-bold mb-4 text-center m-4">Adventures</h1>
+        <h1 className="text-black text-xl md:text-3xl font-bold mb-4 text-center m-4">Adventures</h1>
       </div>
 
-      <h2 className="text-gray-700 text-xl font-bold mb-6 text-center mt-1">Selecciona tu articulo</h2>
+      <h2 className="text-gray-700 text-2xl font-bold mb-6 text-center mt-1">Selecciona tu articulo</h2>
       <h3 className="text-gray-800 text-xl font-semibold mb-6 text-center mt-1">*Cantidades sujetas a stock, los precios pueden variar*</h3>
       <div className="grid grid-cols-2 p-2 md:grid-cols-3 gap-4 mb-6">
         {productos.map((producto) => (
@@ -99,7 +99,7 @@ const Productos = () => {
             <h2 className="text-gray-700 text-xl font-bold mt-2">{producto.name}</h2>
             <p className="text-gray-800 font-semibold">${producto.price}</p>
             <button
-             className="flex text-xs border border-gray-700 md:text-base mt-2 px-4 py-2  text-[#171a67] font-bold rounded-lg hover:bg-[#171a67] hover:text-white whitespace-nowrap "
+             className="flex text-xs border border-gray-700 md:text-base mt-2 px-4 py-2  text-black font-bold rounded-lg hover:bg-black hover:text-white whitespace-nowrap "
               onClick={() => addToCart(producto)}
             >
               Agregar al

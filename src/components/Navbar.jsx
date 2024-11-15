@@ -17,12 +17,12 @@ const Navbar = () => {
   return (
     <div className='fixed w-full z-50'>
       <div>
-        <div className='flex flex-row justify-between p-5 md:px-32 px-5 bg-white text-[#171a67] font-semibold shadow-[0_3px_10px_rgba(0,0,0,0.3)]'>
+        <div className='flex flex-row justify-between p-5 md:px-32 px-5 bg-white text-black font-semibold shadow-[0_3px_10px_rgba(0,0,0,0.3)]'>
             <div className='flex flex-row items-center cursor-pointer'>
                 <span>
-                <img src={logo} className='w-[30px] font-bold'/>
+                <img src={logo} className='w-[30px] font-bold rounded-full'/>
                 </span>
-                <h1 className='text-[#171a67]  sm:text-xl md:text-2xl font-semibold ml-3'>Adventures</h1>
+                <h1 className='text-black sm:text-xl md:text-2xl font-semibold ml-8'>Adventures</h1>
             </div>
             <nav className='hidden md:flex flex-row items-center text-lg font-medium gap-8'>
                 <Link
@@ -75,7 +75,7 @@ const Navbar = () => {
                 )}
             </div>
         </div>
-        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-white text-[#171a67] left-0 top-16 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}>
+        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-white text-black left-0 top-16 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}>
         <Link
                  to='home'
                  spy={true} 

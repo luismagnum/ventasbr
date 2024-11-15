@@ -1,15 +1,15 @@
 import Productos from './pages/Productos';
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
 import MetodosPago from './components/MetodosPago';
 import Footer from './components/Footer';
 import Boton from './components/Boton';
+import Home from './components/Home';
 
 function App() {
   return (
     <div className="overflow-x-hidden">
     <Navbar />
-    <Hero />
+    <Home />
     <div id='productos'>
     <Productos />
     </div>
