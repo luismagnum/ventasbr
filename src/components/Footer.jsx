@@ -7,10 +7,10 @@ import logo from '../assets/logo.png'
 
 const Footer = () => {
   return (
-    <div className='mt-16 bg-gray-400 shadow-[0_3px_10px_rgba(0,0,0,0.3)]'>
+    <div className='mt-16 bg-gray-600 shadow-[0_3px_10px_rgba(0,0,0,0.3)]'>
       <div className="flex flex-col md:flex-row justify-center items-center text-center mx-auto py-4 mb-4">
                 <span>
-                    <img src={logo} alt='' width={40}/>
+                    <img src={logo} alt='logo' width={40}/>
                 </span>
       <h1 className="text-black text-xl md:text-3xl font-bold mb-4 text-center m-4">Adventures</h1>
       </div>

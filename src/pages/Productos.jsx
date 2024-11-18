@@ -83,13 +83,13 @@ const Productos = () => {
 
   return (
     <div className="p-4 mx-4">
-      <div className="flex flex-col md:flex-row justify-center items-center text-center mx-auto mb-4">
+      <div className="flex flex-col md:flex-row justify-center items-center text-center mx-auto mt-4 mb-4">
         <span>
-          <img src={logo} alt='' width={30}/>
+          <img src={logo} alt='logo' width={30}/>
         </span>
         <h1 className="text-black text-xl md:text-3xl font-bold mb-4 text-center m-4">Adventures</h1>
       </div>
-
+      <h2 className="text-gray-950 text-2xl font-bold mb-6 text-center mt-1">TIENDA</h2>
       <h2 className="text-gray-700 text-2xl font-bold mb-6 text-center mt-1">Selecciona tu articulo</h2>
       <h3 className="text-gray-800 text-xl font-semibold mb-6 text-center mt-1">*Cantidades sujetas a stock, los precios pueden variar*</h3>
       <div className="grid grid-cols-2 p-2 md:grid-cols-3 gap-4 mb-6">
