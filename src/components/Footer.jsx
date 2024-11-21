@@ -7,12 +7,12 @@ import logo from '../assets/logo.png'
 
 const Footer = () => {
   return (
-    <div className='mt-16 bg-gray-600 shadow-[0_3px_10px_rgba(0,0,0,0.3)]'>
+    <div className='mt-16 bg-gray-300 shadow-[0_3px_10px_rgba(0,0,0,0.3)]'>
       <div className="flex flex-col md:flex-row justify-center items-center text-center mx-auto py-4 mb-4">
                 <span>
-                    <img src={logo} alt='logo' width={40}/>
+                    <img src={logo} alt='logo' width={40} className="rounded-full"/>
                 </span>
-      <h1 className="text-black text-xl md:text-3xl font-bold mb-4 text-center m-4">Adventures</h1>
+      <h1 className="text-black text-xl md:text-3xl font-bold mb-4 text-center m-4">KC Store</h1>
       </div>
       <div className='md:flex md:justify-between md:items-center sm:px-12 px-4 py-4 '>
         <h1 className='ml-4 md:ml-20 lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold md:w-2/5'>
@@ -37,7 +37,7 @@ const Footer = () => {
       </div>
       <div className='text-center items-center'>
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-center items-center justify-center pt-2 text-gray-950 text-sm pb-8'>
-        <span>@Adventures 2024<br></br>
+        <span>@KC store 2024<br></br>
         <span className='text-gray-950'>@</span>SpeedWeb</span>
         <div className='flex items-center justify-center mx-auto'>
             <button className='grid grid-cols-1 mb-10'>

@@ -8,6 +8,7 @@ import imag3 from '../assets/imag3.jpg'
 import imag4 from '../assets/imag4.jpg'
 import imag5 from '../assets/imag5.jpg'
 import imag6 from '../assets/imag6.jpg'
+import { RiStarSFill } from "react-icons/ri";
 
 const Productos = () => {
   const [cart, setCart] = useState([]);
@@ -87,7 +88,7 @@ const Productos = () => {
         <span>
           <img src={logo} alt='logo' width={30}/>
         </span>
-        <h1 className="text-black text-xl md:text-3xl font-bold mb-4 text-center m-4">Adventures</h1>
+        <h1 className="text-black text-xl md:text-3xl font-bold mb-4 text-center m-4">KC Store</h1>
       </div>
       <h2 className="text-gray-950 text-2xl font-bold mb-6 text-center mt-1">TIENDA</h2>
       <h2 className="text-gray-700 text-2xl font-bold mb-6 text-center mt-1">Selecciona tu articulo</h2>
@@ -97,6 +98,13 @@ const Productos = () => {
           <div key={producto.id} className="border border-gray-900 rounded-lg text-center p-4 flex flex-col items-center">
             <img src={producto.image} alt={producto.name} className="w-28 h-28 mb-2" />
             <h2 className="text-gray-700 text-xl font-bold mt-2">{producto.name}</h2>
+            <div className='flex flex-row justify-center'>
+            <RiStarSFill className='text-yellow-500' />
+            <RiStarSFill className='text-yellow-500' />
+            <RiStarSFill className='text-yellow-500' />
+            <RiStarSFill className='text-yellow-500' />
+            <RiStarSFill className='text-yellow-500' />
+            </div>
             <p className="text-gray-800 font-semibold">${producto.price}</p>
             <button
              className="flex text-xs border border-gray-700 md:text-base mt-2 px-4 py-2  text-black font-bold rounded-lg hover:bg-black hover:text-white whitespace-nowrap "
