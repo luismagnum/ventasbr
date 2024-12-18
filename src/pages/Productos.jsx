@@ -2,12 +2,23 @@ import React, { useState } from 'react';
 import logo from '../assets/logo.png';
 import card from '../assets/mate.png'
 import car from '../assets/car.png';
-import imag1 from '../assets/imag1.jpg'
-import imag2 from '../assets/imag2.jpg'
-import imag3 from '../assets/imag3.jpg'
-import imag4 from '../assets/imag4.jpg'
-import imag5 from '../assets/imag5.jpg'
-import imag6 from '../assets/imag6.jpg'
+import imag1 from '../assets/imag1.jpeg'
+import imag2 from '../assets/imag2.jpeg'
+import imag3 from '../assets/imag3.jpeg'
+import imag4 from '../assets/imag4.jpeg'
+import imag6 from '../assets/imag6.jpeg'
+import imag7 from '../assets/imag7.jpeg'
+import imag8 from '../assets/imag8.jpeg'
+import imag9 from '../assets/imag9.jpeg'
+import imag10 from '../assets/imag10.jpeg'
+import imag11 from '../assets/imag11.jpeg'
+import imag12 from '../assets/imag12.jpeg'
+import imag13 from '../assets/imag13.jpeg'
+import imag14 from '../assets/imag14.png'
+import imag15 from '../assets/imag15.jpeg'
+import imag16 from '../assets/imag16.jpeg'
+
+
 import { RiStarSFill } from "react-icons/ri";
 
 const Productos = () => {
@@ -15,12 +26,21 @@ const Productos = () => {
   const [showError, setShowError] = useState(false); 
 
   const productos = [
-    { id: 1, name: 'Reloj', price: 14000, image: imag1},
-    { id: 2, name: 'Reloj', price: 7000, image: imag2 },
-    { id: 3, name: 'Reloj', price: 10000, image: imag3},
-    { id: 4, name: 'Perfume', price: 45000, image: imag4 },
-    { id: 5, name: 'Perfume', price: 13000, image:imag5},
-    { id: 6, name: 'Perfume', price: 10000, image: imag6},
+    { id: 1, name: 'Vino', price: 14000, image: imag1},
+    { id: 2, name: 'Gorra', price: 7000, image: imag2 },
+    { id: 3, name: 'Vino', price: 10000, image: imag3},
+    { id: 4, name: 'Vino', price: 45000, image: imag4 },
+    { id: 6, name: 'Vino', price: 13000, image:imag6},
+    { id: 7, name: 'Mate', price: 10000, image: imag7},
+    { id: 8, name: 'Gorra', price: 10000, image: imag8},
+    { id: 9, name: 'Mate', price: 10000, image: imag9},
+    { id: 10, name: 'Vino', price: 10000, image: imag10},
+    { id: 11, name: 'Chocolates', price: 10000, image: imag11},
+    { id: 12, name: 'Chocolates', price: 10000, image: imag12},
+    { id: 13, name: 'Chocolates', price: 10000, image: imag13},
+    { id: 14, name: 'Mate', price: 10000, image: imag14},
+    { id: 15, name: 'Chocolates', price: 10000, image: imag15},
+    { id: 16, name: 'Chocolates', price: 10000, image: imag16},
   ];
 
   
@@ -96,7 +116,7 @@ const Productos = () => {
       <div className="grid grid-cols-2 p-2 md:grid-cols-3 gap-4 mb-6">
         {productos.map((producto) => (
           <div key={producto.id} className="border border-gray-900 rounded-lg text-center p-4 flex flex-col items-center">
-            <img src={producto.image} alt={producto.name} className="w-28 h-28 mb-2" />
+            <img src={producto.image} alt={producto.name} className="w-28 h-28 mb-2 object-contain" />
             <h2 className="text-gray-700 text-xl font-bold mt-2">{producto.name}</h2>
             <div className='flex flex-row justify-center'>
             <RiStarSFill className='text-yellow-500' />
